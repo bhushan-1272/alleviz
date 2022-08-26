@@ -1,0 +1,186 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.aside-wrapper {
+  text-align: center;
+  border: 1px solid #9e9e9e80;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 25px;
+}
+.aside-logo {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper {
+  border: 1px solid #9e9e9e80;
+  border-radius: 20px;
+  padding: 20px 0;
+  margin: 5px 0;
+  height: 120px;
+}
+.sidebarflex {
+  justify-content: space-evenly;
+}
+.appointment-type {
+  margin: 5px 0;
+}
+.sidebar-icon p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.main-logo {
+  display: inline-block;
+}
+.user-not {
+  display: block;
+  float: right;
+}
+.user-icon {
+  width: 55px;
+}
+.appoint-schedule {
+  display: inline-block;
+}
+.appoint-sec {
+  display: inline-block;
+  border: 1px solid #9e9e9e80;
+  border-radius: 30px;
+  margin-right: 15px;
+  padding: 5px;
+  margin-left: 32%;
+}
+.date-calendar {
+  margin: 0 5px;
+}
+#date {
+  margin: 0 5px;
+}
+.appoint-schedule p {
+  margin: 12px 0;
+}
+.create-app {
+  display: inline-block;
+}
+.create-icontext {
+  padding: 5px;
+  background-color: #087ceacf;
+  color: #fff;
+  border-radius: 30px;
+}
+.create-text {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.count {
+  height: 70px;
+  background-color: #087cea36;
+  margin: 25px 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 4px #808080ba;
+  box-shadow: 0px 2px 4px #808080ba;
+  padding: 10px;
+}
+.count-text p {
+  margin-bottom: 0px;
+}
+.count-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.count-no {
+  font-size: 30px;
+}
+.appon-time {
+  display: inline-block;
+}
+.appon-branch {
+  border: 1px solid #9e9e9e80;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 5px;
+}
+.appon-branch span, .appon-department span {
+  font-weight: 500;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.appon-department {
+  border: 1px solid #9e9e9e80;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 5px;
+  margin-left: 30%;
+}
+.employe-detail-user {
+  width: 55px;
+  margin-left: 2%;
+}
+.counts {
+  border: 1px solid #9e9e9e80;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.employe-project {
+  margin-left: 5%;
+  width: 25%;
+}
+.employe {
+  border: 1px solid #9e9e9e80;
+  border-radius: 10px;
+  margin: 5px 0;
+  -webkit-box-shadow: 0px 2px 4px #808080ba;
+  box-shadow: 0px 2px 4px #808080ba;
+}
+.employe-text {
+  margin-left: 2%;
+  padding: 10px;
+  width: 25%;
+}
+.employe-text h3 {
+  font-size: 22px;
+}
+.employe-text h3 {
+  font-size: 22px;
+}
+.employe-text p {
+  font-size: 12px;
+}
+.employe-detail {
+  display: flex;
+  align-items: center;  
+  position: relative;
+  padding-left: 4px;
+}
+.employe-department {
+  margin-left: 5%;
+}
+.employe-text h5 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.employe-department h6 {
+  font-weight: normal;
+}
+.employe-detail::before {
+  content: "";
+  width: 5px;
+  height: 100%;
+  background-color: #ffa500b5;
+  position: absolute;
+}
+
+/*-------------------------------------------------- Media Query Starts Here 
+--------------------------------------------------*/

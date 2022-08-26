@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1180px) {
+.appon-department, .appoint-sec {
+  margin-left: 5%;
+}
+.sidebar-wrapper {
+  height: 135px;
+}  
+}
+
+@media only screen and (max-width: 480px) {
+.main-logo {
+  width: 50%;
+  display: inline-block;
+}
+.main-logo img {
+  width: 100%;
+}
+.bell-icon {
+  width: 50px;
+}
+.user-icon {
+  width: 45px;
+}
+.appon-department, .appoint-sec {
+  margin-bottom: 10px;
+}
+.counts {
+  margin-top: 30px;
+}
+.appon-department, .appoint-sec {
+  margin-left: 18%;
+}
+.create-app {
+  display: inline-block;
+  margin-left: 15%;
+}
+.appon-branch {
+  margin-left: 25%;
+}
+}
